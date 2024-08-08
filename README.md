@@ -1,1 +1,1 @@
-ссылка на проект [andre7061.github.io/portfolio/]
+[ссылка на проект](andre7061.github.io/portfolio/)
