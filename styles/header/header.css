@@ -1,0 +1,48 @@
+.conteiner {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__wrapper {
+    background-color: rgba(218, 197, 167, 0.05);
+    display: flex;
+    border: 1px solid rgba(218, 197, 167, 0.25);
+    align-items: center;
+    max-width: 560px;
+    width: 100%;
+    padding: 12px;
+    margin: 48px auto 0;
+}
+
+.header__logo {
+    width: 52px;
+    height: 20px;
+    margin-right: 32px;
+}
+
+.menu {
+    max-width: 474px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: rgba(218, 197, 167, 1);
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.header__btn {
+    max-width: 111px;
+    width: 100%;
+    height: 41px;
+    background-color: rgba(218, 197, 167, 1);
+    color: black;
+    padding: 10px 16px;
+    border-radius: 2px;
+    border: none;
+}
