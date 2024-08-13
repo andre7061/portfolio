@@ -7,10 +7,14 @@
 }
 
 :root {
-  --bg-color: rgba(14, 14, 14, 1);
+  --accent-color: rgba(228, 48, 113, 1);
+  --bg-color:rgba(255, 255, 255, 1);
+  --text-color:rgba(66, 66, 66, 1);
 }
 
 body {
-  background-color: black;
-  
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  font-size: 16px;
+  font-weight: 400;
 }

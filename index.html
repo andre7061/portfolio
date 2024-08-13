@@ -4,35 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/index.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="conteiner">
-        <header class="header">
-            <div class="header__wrapper">
-                <img src="./images/Logo.svg" alt="logo" class="header__logo">
-                <nav class="header__nav menu">
-                    <div class="menu__item"><a href="#" class="menu__link">Services</a></div>
-                    <div class="menu__item"><a href="#" class="menu__link">Work</a></div>
-                    <div class="menu__item"><a href="#" class="menu__link">About</a></div>
-                    <div class="menu__item"><a href="#" class="menu__link">Blog</a></div>
-                    <div class="menu__item"><a href="#" class="menu__link">Pages</a></div>
-                    <button class="header__btn">Let’s talk</button>
-                </nav>
-
-            </div>
-        </header>
+    <header class="header">
+        <div class="header__wrapper conteiner">
+            <p class="header__logo">Goodlyfe</p>
+            <nav class="header__nav menu">
+                <div class="menu__item"><a href="#" class="menu__link">Classess</a></div>
+                <div class="menu__item"><a href="#" class="menu__link">Timetable</a></div>
+                <div class="menu__item"><a href="#" class="menu__link">Clubs</a></div>
+                <div class="menu__item"><a href="#" class="menu__link">Nutrition</a></div>
+                <div class="menu__item"><a href="#" class="menu__link">Free Trial</a></div>
+                <div class="menu__item"><a href="#" class="menu__link">Search</a>
+                    <img class="menu__link-img" src="./images/Search Icon.svg" alt="поиск">
+                </div>
+                <button class="header__btn">Login</button>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
         <section class="hero">
-            <div class="hero__wraper-img">
-                <img class="hero__img" src="./images/Image.png" alt="avtor">
-            </div>
-            <h1 class="hero__title">Web Designer<br>& <span class="hero__span">Developer</span></h1>
-            <p class="hero__subtitle">Premium web design, development, and SEO services to help your business stand out.
-            </p>
+            <div class="hero__wrapper conteiner"></div>
+            <h1 class="hero__title">Welcome to Goodlyfe Gyms</h1>
+             <button class="hero__btn btn">See the benefits</button>
+             <div class="conteiner__button">
+                <div class="conteiner__item"></div>
+                <div class="conteiner__item"></div>
+                <div class="conteiner__item conteiner__item_activ"></div>
+                <div class="conteiner__item"></div>
+                <div class="conteiner__item"></div>
+                
+             </div>  
         </section>
-    </div>
+    </main>
 </body>
 
 </html>
