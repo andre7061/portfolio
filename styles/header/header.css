@@ -24,6 +24,9 @@
     line-height: 43.8px;
     color: var(--bg-color);
 }
+.header__logo-span{
+    color: pink;
+}
 
 .menu {
     display: flex;
@@ -35,15 +38,17 @@
 }
 .menu__item:last-of-type{
     margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
 }
 .menu__link {
 color: var(--bg-color);
 text-decoration: none;
 }
 .menu__link-img {
-    position: relative;
-    top: 3px;
-    left:3px;
+    
 }
 .header__btn {
     width: 166px; 

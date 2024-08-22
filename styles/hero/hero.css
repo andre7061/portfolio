@@ -1,7 +1,7 @@
 .hero {
     background-image: url("../../images/Female.png");
   background-repeat: no-repeat;
-  background-position: -10px center;
+  background-position: 0 center;
   background-size: cover;
   min-height: 706px;
 }
@@ -53,7 +53,10 @@
     height: 12px;
     border-radius: 50%;
     background-color: var(--bg-color);
+    cursor: pointer;
 }
 .conteiner__item_activ{
     background-color: var(--accent-color);
+    width: 17px;
+    height: 17px;
 }
